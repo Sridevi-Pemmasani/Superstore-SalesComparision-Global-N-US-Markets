@@ -3,9 +3,9 @@ Superstore-SalesComparision-Global-N-US-Markets
 # Data Model Design
 ![DataModel](Images/DataModel.png)
 
-We imported two datasets covering the Global and US Superstore markets. Since the datasets span different calendar years—and all US products inherently belong to the Global dataset—directly blending them retrieves only the overlapping products. This limited our ability to perform a full comparative analysis. 
+Imported two datasets covering the Global and US Superstore markets. Since the datasets span different calendar years—and all US products inherently belong to the Global dataset—directly blending them retrieves only the overlapping products. This limited our ability to perform a full comparative analysis. 
 
-To overcome this, we implemented a **full outer join** between the Global and US datasets, ensuring the inclusion of all products from both sources and enabling comprehensive comparative analysis.
+To overcome this, implemented a **full outer join** between the Global and US datasets, ensuring the inclusion of all products from both sources and enabling comprehensive comparative analysis.
 
 ---
 
